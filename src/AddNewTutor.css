@@ -1,0 +1,81 @@
+.add-tutor-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+.register-card {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  flex: 1;
+  margin: 20px;
+}
+
+.custom-newtutor {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold; /* Make labels bold */
+  width: 300px; /* Adjust label width as needed */
+}
+
+.newtutorinput {
+  flex: 1; 
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.gender-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.gender-category {
+  margin-left: 10px;
+}
+
+.custom-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.error-message {
+  color: red;
+}
+.custom-error-message{
+  color: red;
+}
